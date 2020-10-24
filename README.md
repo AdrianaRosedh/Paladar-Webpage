@@ -1,6 +1,6 @@
 ## Preview
 
-[![Scrolling Nav Preview](Paladar/index.html)
+[![Paladar](Paladar/index.html)
 
 ## Status
 
