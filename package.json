@@ -30,6 +30,7 @@
     },
     "dependencies": {
         "bootstrap": "4.5.0",
+        "http-server": "^0.12.3",
         "jquery": "3.5.1",
         "jquery.easing": "^1.4.1"
     },
