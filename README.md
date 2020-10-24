@@ -1,6 +1,6 @@
 ## Preview
 
-[![Paladar](https://github.com/AdrianaRosedh/Paladar/blob/master/index.html)
+[![Paladar](https://htmlpreview.github.io/?https://github.com/AdrianaRosedh/Paladar/blob/master/index.html])
 
 ## Status
 
