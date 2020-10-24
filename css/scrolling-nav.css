@@ -3,10 +3,45 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+
+nav {
+	background-color: #fff;
+}
+
 header {
-  padding: 200px 0 100px;
+  padding: 300px 0 100px;
 }
 
 section {
   padding: 150px 0;
+}
+
+.navbar {
+	-webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+    /* the rest of your styling */
+}
+
+.navbar-dark {
+	background: #ffffff;
+}
+
+.navbar-expand-lg {
+	background: #ffffff;
+}
+
+.navbar-brand {
+	font-style: sans-serif;
+	font-size: 2rem;
+	color: #5a5a5a
+}
+
+.bg-primary {
+	background: 
+}
+
+.container {
+	font-style: sans-serif;
 }
