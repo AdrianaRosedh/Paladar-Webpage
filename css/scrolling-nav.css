@@ -49,15 +49,16 @@ section {
     color: rgba(58 58 58 / 0.75);
 }
 
-  .image-background {
-    padding: 0 0;
-    width: 100%; 
-    height: 100%; 
-    position: fixed; 
-    left: 0px; 
-    top: 0px; 
-    z-index: -1; 
-    }
+.image-background {
+  padding: 0 0;
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  position: fixed; 
+  left: 0px; 
+  top: 0px; 
+  z-index: -1; 
+}
 
 .image-container {
   display: -ms-flexbox; 
