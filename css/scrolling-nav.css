@@ -4,12 +4,9 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
-nav {
-	background-color: #fff;
-}
 
 header {
-  padding: 300px 0 100px;
+  padding: 150px 0 100px;
 }
 
 section {
@@ -18,30 +15,49 @@ section {
 
 .navbar {
 	-webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;
-
-    /* the rest of your styling */
-}
-
-.navbar-dark {
-	background: #ffffff;
-}
-
-.navbar-expand-lg {
-	background: #ffffff;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+  color: white !important;
 }
 
 .navbar-brand {
 	font-style: sans-serif;
 	font-size: 2rem;
-	color: #5a5a5a
 }
 
-.bg-primary {
-	background: 
+.navbar-dark .navbar-brand {
+    color: #323232;
 }
 
-.container {
-	font-style: sans-serif;
+.navbar-dark .nav-item .nav-link {
+    color: #323232;
 }
+
+.text-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(58 58 58 / 0.75);
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: rgba(58 58 58 / 0.75);
+}
+
+.image-container {
+  position: absolute; ;
+  float: left;
+  transform: translate(-10%, -130%);
+}
+
+
+
+
+
+
+
+
+
