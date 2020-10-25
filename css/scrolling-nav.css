@@ -4,11 +4,13 @@ header {
 }
 
 section {
-  padding: 150px 0;
+  padding: 2rem 0;
 }
 
 #about{
-  margin-top: 25rem;
+  margin-top: 40rem;
+  margin-bottom: 9rem;
+  padding: 9rem 0;
 } 
 
 .navbar {
@@ -84,9 +86,13 @@ h2 {
   margin-bottom: 2rem;
 }
 
+h3 {
+  margin-bottom: 4rem;
+}
 
-
-
+#examples5 {
+  margin-bottom: 10rem;
+}
 
 
 
