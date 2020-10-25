@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/templates/scrolling-nav)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
- */
-
 
 header {
   padding: 80px 0 100px;
@@ -12,6 +6,10 @@ header {
 section {
   padding: 150px 0;
 }
+
+#about{
+  margin-top: 25rem;
+} 
 
 .navbar {
 	-webkit-box-shadow: 0 8px 6px -6px #999;
@@ -51,12 +49,22 @@ section {
     color: rgba(58 58 58 / 0.75);
 }
 
+  .image-background {
+    padding: 0 0;
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; 
+    }
+
 .image-container {
-  display: -ms-flexbox;
-  position: absolute; ;
-  float: left;
-  transform: translate(-10%, -130%);
-}
+  display: -ms-flexbox; 
+  position: absolute; 
+  transform: translate(-20rem, 5rem);
+
+} 
 
 @media screen and (max-width: 1200px) {
   .image-container {
@@ -64,19 +72,29 @@ section {
   }
 }
 
+/*  Colapse color change   */
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2858, 58, 58, 0.7%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-/*@media screen and (max-width: 1000px) {
-  .image-background {
-    display: none;
-  }
+
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 1050px) {
-  .section-padding {
-  padding: 1000px 0;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
