@@ -8770,8 +8770,5 @@ if ( typeof noGlobal === "undefined" ) {
 	window.jQuery = window.$ = jQuery;
 }
 
-
-
-
 return jQuery;
 } );

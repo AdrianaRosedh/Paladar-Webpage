@@ -33,6 +33,10 @@ section {
     color: #323232;
 }
 
+.collapse {
+    color: #323232;  
+}
+
 .text-center {
   position: absolute;
   top: 50%;
@@ -48,16 +52,28 @@ section {
 }
 
 .image-container {
+  display: -ms-flexbox;
   position: absolute; ;
   float: left;
   transform: translate(-10%, -130%);
 }
 
+@media screen and (max-width: 1200px) {
+  .image-container {
+    display: none;
+  }
+}
 
+/*@media screen and (max-width: 1000px) {
+  .image-background {
+    display: none;
+  }
+}
 
-
-
-
-
+@media screen and (max-width: 1050px) {
+  .section-padding {
+  padding: 1000px 0;
+  }
+}
 
 
