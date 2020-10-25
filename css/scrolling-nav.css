@@ -64,6 +64,7 @@ section {
   display: -ms-flexbox; 
   position: absolute; 
   transform: translate(-20rem, 5rem);
+  margin-left: 50px;
 
 } 
 
